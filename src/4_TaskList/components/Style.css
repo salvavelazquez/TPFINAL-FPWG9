@@ -1,0 +1,23 @@
+.colorBackground {
+    background-color: #37323c; /* Cambia el color de fondo a violeta */
+}
+
+.whiteText {
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+.init{
+    color: rgb(231, 231, 8);
+}
+
+.process{
+    color: rgb(50, 68, 181);
+}
+
+.finish{
+    color: rgb(25, 210, 25);
+}

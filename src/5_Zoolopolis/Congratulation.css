@@ -1,0 +1,143 @@
+.center-content2 {
+    display: flex;
+    flex-direction: column;
+    /* alinea vertical */
+    align-items: center;
+    /*alinnea horizontalmente */
+    justify-content: center;
+    /* lo centra*/
+    height: 100vh;
+    /* Ocupa el 100% de la altura de la ventana */
+    
+}
+
+/* ------ Animacion de circulos -----*/
+
+.Decoracion {
+    /*position: absolute;
+      z-index: -1; /* Esto coloca las casillas detrás de las imágenes */
+    border-radius: 50%;
+    background: rgba(253, 242, 242, 0.938);
+    opacity: .9;
+
+    position: absolute;
+    bottom: -150;
+
+    animation: Animacion 3s linear infinite;
+
+}
+
+.Decoracion:nth-child(1) {
+    width: 30px;
+    height: 30px;
+    left: 5%;
+    animation-duration: 3.5s;
+    background: rgb(232, 71, 238);
+}
+
+.Decoracion:nth-child(2) {
+    width: 60px;
+    height: 60px;
+    left: 25%;
+    animation-duration: 2.5s;
+    background: rgb(57, 231, 124);
+}
+
+.Decoracion:nth-child(3) {
+
+    width: 40px;
+    height: 40px;
+    left: 45%;
+    animation-duration: 4s;
+    background: rgb(57, 153, 231);
+}
+
+.Decoracion:nth-child(4) {
+
+    width: 60px;
+    height: 60px;
+    left: 65%;
+    animation-duration: 3s;
+    background: rgb(231, 57, 217);
+}
+
+.Decoracion:nth-child(5) {
+
+    width: 55px;
+    height: 55px;
+    left: 75%;
+    animation-duration: 6s;
+    background: rgb(57, 231, 124);
+}
+
+.Decoracion:nth-child(6) {
+    width: 47px;
+    height: 47px;
+    left: 12%;
+    animation-duration: 3s;
+    background: rgb(231, 228, 57);
+}
+
+.Decoracion:nth-child(7) {
+    width: 40px;
+    height: 40px;
+    left: 94%;
+    animation-duration: 3s;
+    background: rgb(231, 228, 57);
+}
+
+.Decoracion:nth-child(8) {
+    width: 30px;
+    height: 30px;
+    left: 15%;
+    animation-duration: 1.5s;
+    background: rgb(251, 251, 235);
+}
+
+.Decoracion:nth-child(9) {
+    width: 20px;
+    height: 20px;
+    left: 35%;
+    animation-duration: 3s;
+    background: rgb(95, 57, 231);
+}
+
+.Decoracion:nth-child(10) {
+    width: 40px;
+    height: 40px;
+    left: 50%;
+    animation-duration: 2s;
+    background: rgb(231, 57, 57);
+}
+
+.Decoracion:nth-child(11) {
+    width: 30px;
+    height: 30px;
+    left: 85%;
+    animation-duration: 2s;
+    background: rgb(57, 231, 86);
+}
+
+
+
+@keyframes Animacion {
+    0% {
+        bottom: 0;
+        opacity: .2;
+    }
+
+    30% {
+        opacity: .5;
+    }
+
+    50% {
+        opacity: .3;
+    }
+
+    100% {
+        bottom: 100vh;
+        opacity: 0;
+    }
+
+
+}

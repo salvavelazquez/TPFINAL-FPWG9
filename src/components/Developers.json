@@ -1,0 +1,43 @@
+[
+    {
+        "id": 0,
+        "img": "../img/perfiles/1Flores.jpg" ,
+        "name": "Flores,Enzo Javier",
+        "repository": "https://github.com/EnzoFlores99?tab=repositories",
+        "task": "Price Comparison",
+        "hobby": "videogames"
+        
+    },
+    {
+        "id": 1,
+        "img": "../img/perfiles/2Castro.jpg" ,
+        "name": "Castro Ramírez, Víctor Hugo ",
+        "repository": "https://github.com/ESTIVI23?tab=repositories",
+        "task": "Dude",
+        "hobby": "videogames"
+    },
+    {
+        "id": 2,
+        "img": "../img/perfiles/3Velazquez.jpeg" ,
+        "name": "Velazquez, Augusto ",
+        "repository": "https://github.com/salvavelazquez",
+        "task": "Space War, portal web",
+        "hobby": "videogames"
+    },
+    {
+        "id": 3,
+        "img": "../img/perfiles/4Condori.jpeg" ,
+        "name": "Condorí Perez, Maximiliano Ezequiel",
+        "repository": "https://github.com/profKennedy",
+        "task": "Note List",
+        "hobby": "videogames"
+    },
+    {
+        "id": 4,
+        "img": "../img/perfiles/5Ramos.jpg" ,
+        "name": "Ramos,Luca Joaquin",
+        "repository": "https://github.com/lukjoako?tab=repositories",
+        "task": "Zoolopolis",
+        "hobby": "videogames"
+    }
+]

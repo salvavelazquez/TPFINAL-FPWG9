@@ -1,0 +1,68 @@
+[
+    {
+        "id": 0,
+        "name": "cat",
+        "url": "img/ZoolopolisImg/cat.png"
+    },
+    {
+        "id": 1,
+        "name": "dog",
+        "url": "img/ZoolopolisImg/dog.png"
+    },
+    {
+        "id": 2,
+        "name": "cow",
+        "url": "img/ZoolopolisImg/cow.png"
+    },
+    {
+        "id": 3,
+        "name": "lion",
+        "url": "img/ZoolopolisImg/lion.png"
+    },
+    {
+        "id": 4,
+        "name": "giraffe",
+        "url": "img/ZoolopolisImg/giraffe.png"
+    },
+    {
+        "id": 5,
+        "name": "horse",
+        "url": "img/ZoolopolisImg/horse.png"
+    },
+    {
+        "id": 6,
+        "name": "zebra",
+        "url": "img/ZoolopolisImg/zebra.png"
+    },
+    {
+        "id": 7,
+        "name": "elephant",
+        "url": "img/ZoolopolisImg/elephant.png"
+    },
+    {
+        "id": 8,
+        "name": "bird",
+        "url": "img/ZoolopolisImg/bird.png"
+    },
+    {
+        "id": 9,
+        "name": "monkey",
+        "url": "img/ZoolopolisImg/monkey.png"
+    },
+    {
+        "id": 10,
+        "name": "rabbit",
+        "url": "img/ZoolopolisImg/rabbit.png"
+    },
+    {
+        "id": 11,
+        "name": "bee",
+        "url": "img/ZoolopolisImg/bee.png"
+    },
+    {
+        "id": 12,
+        "name": "fish",
+        "url": "img/ZoolopolisImg/fish.png"
+    }
+
+]

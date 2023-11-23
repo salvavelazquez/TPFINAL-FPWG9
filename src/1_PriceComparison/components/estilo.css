@@ -1,0 +1,23 @@
+#gg{
+        /*background-color: brown;*/
+        position: relative;
+        background-image: url("/public/img/22.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        top: -50px;
+        height: 100%;
+        
+}
+
+#ff{    
+        padding: '20px';
+}
+.text-secondary{
+    background-color: aqua;
+    padding-left: 30%;
+}
+.text-primary{
+    background-color: aqua;
+    padding-left: 30%;
+}

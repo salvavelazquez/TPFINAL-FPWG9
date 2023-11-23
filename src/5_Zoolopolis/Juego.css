@@ -1,0 +1,63 @@
+.centrar-contenido2 {
+    display: flex;
+    flex-direction: column; /* alinea vertical */
+    align-items: center; /*alinnea horizontalmente */
+    justify-content: center;/* lo centra*/
+}
+.animal-img {
+    max-width: 550px; /* Define el ancho máximo en píxeles */
+    max-height: 400px; /* Define la altura máxima en píxeles */
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 28px;
+}
+
+.imagen-y-botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    padding: 8px 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    border: 4px solid rgba(255, 255, 255, 0.568);
+    background-color: rgb(10, 234, 174);/**/
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+
+/* Estilo original del botón */
+.button-original {
+    background-color: rgb(10, 234, 174);
+}
+
+  /* Estilo del botón al acercar el mouse (naranja) */
+.button-hovered {
+    background-color: rgb(255, 102, 0);
+    
+}
+.botNext{
+    padding: 8px 20px;
+    background-color: rgb(255, 0, 60);
+}

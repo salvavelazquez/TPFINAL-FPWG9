@@ -1,0 +1,6 @@
+.developer-img {
+    width: 100%;
+    height: 200px; /* Ajusta la altura según tus necesidades */
+    object-fit: cover; /* Ajusta el método de ajuste según tus necesidades */
+  }
+  

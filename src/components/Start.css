@@ -1,0 +1,66 @@
+main{
+    background-color: #0b0912;
+}
+
+.contentContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-around; /* Puedes cambiar esto según tus necesidades */
+}
+
+.gameSection{
+    width: 54%;
+    /*border: 1px solid white;*/
+}
+.toolsSection {
+    
+    z-index: 2;
+    position: relative;
+    width: 45%; /* Puedes ajustar el ancho de cada sección */
+   /* border: 1px solid white;*/
+}
+
+.headersGame{
+    
+    color:white;
+    font-size: 26px;
+    font-family:"Bauhaus 93","serif";
+    text-transform: uppercase;
+    padding-left: 30px;
+    margin-bottom: 0;
+}
+
+
+.custom-height-class {
+    height: 20px; /* Ajusta según tus necesidades */
+    /*object-fit: cover;  Esto asegura que la imagen se ajuste y conserve su relación de aspecto */
+}
+.carouselContainer {
+    display: flex;
+    justify-content: flex-start; /* Alinea el carrusel a la izquierda */
+}
+
+.cardContainer {
+    
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan cuando no haya suficiente espacio en la línea */
+    display: flex;
+    /*justify-content:right;*/
+  }
+
+ /* Media query para pantallas más pequeñas */
+@media (max-width: 1115px) {
+    .contentContainer {
+        flex-direction: column; /* Cambia a diseño de columna en pantallas más pequeñas */
+    }
+
+    .gameSection{
+        
+        width: 100%;
+    }
+     .toolsSection {
+        
+        width: 100%; /* Ambas secciones ocupan todo el ancho en pantallas más pequeñas */
+    }
+}
+
+
